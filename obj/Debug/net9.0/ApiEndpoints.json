@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "EmpleadosAPI.Controllers.EmpleadosController",
+    "Method": "Lista",
+    "RelativePath": "api/Empleados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpleadosAPI.Controllers.EmpleadosController",
+    "Method": "Agregar",
+    "RelativePath": "api/Empleados/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmpleadosAPI.Models.Empleados",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpleadosAPI.Controllers.EmpleadosController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Empleados/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpleadosAPI.Controllers.EmpleadosController",
+    "Method": "Modificar",
+    "RelativePath": "api/Empleados/Modificar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "EmpleadosAPI.Models.Empleados",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
